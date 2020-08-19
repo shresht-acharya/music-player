@@ -1,0 +1,385 @@
+html{
+	background-color: black;
+	margin: : 0px;
+}
+body{
+	margin: 0px;
+
+}
+header div{
+	display: inline-block;
+	padding-left: 8vw;
+}
+header p{
+	display: inline-block;
+	font-size: 25px;
+	font-family: sans-serif;
+
+}
+header{
+	align-items: center;
+	background: rgb(38,13,13);
+background: linear-gradient(180deg, rgba(38,13,13,1) 0%, rgba(28,22,36,1) 3%, rgba(16,21,22,1) 100%);
+	width: 100%;
+	height: 10vh;
+	display: inline-block;
+	text-align: center;
+	background-attachment: fixed;
+}
+header i{
+	color: white;
+}
+#search button{
+	border:none;
+	background-color: pink;
+	height: 100%;
+}
+/*header complete*/
+/*main start*/
+main{
+	width: 60%;
+	height: auto;
+	background-color: black; 
+	margin-top: 4vh;
+	margin-left: 5vw;
+	display: inline-block;
+}
+#artist #info
+{
+	width: 65%;
+	height:60%;
+color: white;
+display: inline-block;
+text-align: center;
+vertical-align: top;
+padding-top: 4%;
+padding-left: 2%
+
+}
+
+#play{
+	vertical-align: top;
+	color: white;
+	display: inline-block;
+	margin-top: 24%;
+	margin-left: -36%;
+	font-size: 3em;
+}
+#play i:hover{
+	box-shadow: 0px 0px 5px 8px rgb(214,234,248);
+	border-radius: 50%;
+}
+
+#artist{
+	width: 100%;
+	height: 40vh;
+	background-color: orange;
+	display: inline-block;
+	background-image: url("pics/back.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#artist #image{
+	width: 30%;
+	height: 40vh;
+	background-color: white;
+	background-image: url("pics/zayn31.jfif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+display: inline-block;
+}
+#playlist{
+	width: 100%; 
+	height: 100vh;
+   background-color: black;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+#playlist-items{
+	width: 100%;
+	height:10vh;
+
+	background: rgb(34,8,14);
+background: linear-gradient(270deg, rgba(34,8,14,0.342472022988883) 0%, rgba(21,23,46,1) 73%, rgba(6,9,27,1) 100%);
+}
+#imagep{
+  width: 8%;
+  height: 80%;
+background-image: url("pics/zaynbg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+ margin: 1%;
+  border-radius: 10%;
+display: inline-block;
+}
+#playlist-items p
+{
+  vertical-align: top;
+  margin:2%;
+  margin-top: 3%;
+  display: inline-block;
+  font-family: candara;
+  font-weight:bold;
+  color: white;
+  }
+#playlist-items #heart{
+  vertical-align: top;
+  margin-top: 3%;
+  margin-left: 40%;
+  color: white;
+
+}
+#playlist-items #plus{
+  vertical-align: top;
+  margin-top: 3%;
+  margin-left: 15px;
+  color: white;1
+
+}
+
+/*main over*/
+/*aside start  */
+aside{
+    width: 30%;
+    height: 113vh;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4vh;
+    margin-left: 2%;
+}
+
+#similar{
+    height: 49%;
+    width: 100%;
+    margin-bottom: 10%;
+} 
+
+#recent{
+
+	 height: 100%;
+    width: 100%; 
+
+}
+
+#sim-header{
+	height: 13%;
+	width: 100%;
+    background-color: black;
+}
+#rec-header{
+	height: 13%;
+	width: 100%;
+    background-color: black;
+
+}
+
+#sim-header{
+	font-size: 30px;
+	font-weight: 900;
+	font-family: georgia;
+	padding-left: 15px;
+	padding-top: 3px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+#sim-playlist{
+	width: 100%;
+	height: 80%;
+	overflow: scroll;
+}
+
+#album{
+	width: 100%;
+	height: 32%;
+	background-color: black;
+   	margin-top: 2%;
+   	border-radius: 5px;
+}
+	
+#album-pic{
+    background-image: url("pics/edd.jpeg");
+    background-size: cover;
+ 	height: 90%;
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 1.25% ;
+}
+
+
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+#album div{
+	display: inline-block;
+}
+
+#alb-name{
+    vertical-align: top;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+}
+
+#icon1{
+    vertical-align: top;
+	margin-left: 36%;
+	margin-top: 2%;	
+	color: white;
+}
+#icon2{
+    vertical-align: top;
+	margin-left: 38%;
+	margin-top: 2%;	
+	color: white;
+}
+#icon3{
+    vertical-align: top;
+	margin-left: 30%;
+	margin-top: 2%;	
+	color: white;
+}
+#icon4{
+    vertical-align: top;
+	margin-left: 40%;
+	margin-top: 2%;	
+	color: white;
+}
+#icon5{
+    vertical-align: top;
+	margin-left: 34%;
+	margin-top: 2%;	
+	color: white;
+}
+#icon{
+    vertical-align: top;
+	margin-left: 36%;
+	margin-top: 2%;	
+	color: white;
+}
+#icona{
+	 vertical-align: top;
+	margin-left: 47%;
+	margin-top: 2%;	
+	color: white;
+}
+#iconb{
+	 vertical-align: top;
+	margin-left: 32%;
+	margin-top: 2%;	
+	color: white;
+}
+#iconc{
+	 vertical-align: top;
+	margin-left: 43%;
+	margin-top: 2%;	
+	color: white;
+}
+#icond{
+	 vertical-align: top;
+	margin-left: 36%;
+	margin-top: 2%;	
+	color: white;
+}
+#rec-header{
+	font-size: 30px;
+	font-weight: 900;
+	font-family: georgia;
+	padding-left: 15px;
+	margin-top: 10%;
+	padding-top: 0.5%;
+	padding-bottom: 3%;
+	color: white;
+}
+
+#rec-playlist{
+	width: 100%;
+	height: 100%;
+	
+	overflow: scroll;
+}
+
+#album1{
+	margin-top: %;
+	width: 100%;
+	height: 25%;
+	background-color: black;
+   	margin-top: 2%;
+   	border-radius: 5px;
+}
+
+#album1 div{
+	display: inline-block;
+}
+
+
+
+.sans{
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+.black{
+	color:black;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+#ed{
+	  background-image: url("pics/edd.jpeg");
+    background-size: cover;
+ 	height: 90%;
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 1.25% ;
+}
+#ari{
+	  background-image: url("pics/arijith.jfif");
+    background-size: cover;
+ 	height: 90%;
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 1.25% ;
+}
+#prateek{
+	  background-image: url("pics/pra.jfif");
+    background-size: cover;
+ 	height: 90%;
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 1.25% ;
+}
+#idg{
+	  background-image: url("pics/idg.jfif");
+    background-size: cover;
+ 	height: 90%;
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 1.25% ;
+}
+#bill{
+	  background-image: url("pics/bill.jfif");
+    background-size: cover;
+ 	height: 90%;
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 1.25% ;
+}
+#rock{
+	  background-image: url("pics/rock.jpg");
+    background-size: cover;
+ 	height: 90%;
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 1.25% ;
+}
